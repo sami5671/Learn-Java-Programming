@@ -1,6 +1,6 @@
 public class problem_13 {
     public static void main(String[] args) {
-        int number = 12345;
+        int number =56789;
         int first = number %10;
         int temp1 = number/10;
         int second = temp1 %10;
