@@ -12,6 +12,5 @@ public class problem_1 {
 
         System.out.println("Sum IS: "+sum);
         System.out.println("Product is: "+product);
-
     }
 }
