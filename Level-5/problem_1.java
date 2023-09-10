@@ -12,6 +12,5 @@ public class problem_1 {
         }else{
              System.out.println("Not Square");
         }
-
     }
 }

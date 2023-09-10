@@ -6,6 +6,7 @@ public class problem_9 {
 
         int total = a+ b+ c;
         double grandMarks = (total * 100)/ (3*100);
-        System.out.println(grandMarks);
+        System.out.println("Total: "+total);
+        System.out.println("Percentage: "+grandMarks);
     }
 }
