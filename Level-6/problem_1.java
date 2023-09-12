@@ -8,7 +8,7 @@ public class problem_1 {
          sum = sum + num;
     }
     average = sum /10;
-    System.out.println(average);
+    System.out.println("Average: "+average);
 }
 }
 

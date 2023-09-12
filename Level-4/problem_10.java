@@ -11,6 +11,5 @@ public class problem_10 {
 
         System.out.println("total: "+total);
         System.out.println("percentage: "+percentage+"%");
-
     }
 }

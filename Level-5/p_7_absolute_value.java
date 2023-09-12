@@ -5,5 +5,6 @@ public class p_7_absolute_value {
         System.out.print("Enter a number: ");
         double doubleValue = sc.nextDouble();
         System.out.println(Math.abs(doubleValue));
+        
     }
 }

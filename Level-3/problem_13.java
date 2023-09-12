@@ -5,9 +5,9 @@ public class problem_13 {
         int sLDigit = (number / 10) % 10;
         int sum = fDigit + sLDigit;
        
-        System.out.println(fDigit);    
-        System.out.println(sLDigit);
-        System.out.println(+sum);
+        System.out.println("First Digit: "+fDigit);    
+        System.out.println("Second Last Digit"+sLDigit);
+        System.out.println("Sum is: "+sum);
        
     }
 }

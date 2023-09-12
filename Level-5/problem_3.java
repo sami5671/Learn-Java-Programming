@@ -9,6 +9,8 @@ public class problem_3 {
         double discount = Quantity*.01;
         double totalCost = Quantity-discount;
         System.out.println("Total Cost: "+totalCost);
+       }else{
+        System.out.println("No Discount At(Under 1000)");
        }
     }
 }

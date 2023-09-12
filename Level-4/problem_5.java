@@ -7,8 +7,8 @@ public class problem_5 {
         double areaOfSide = side * side;
         double perimeter = 4*side;
 
-        System.out.println(+perimeter);
-        System.out.println(+areaOfSide);
+        System.out.println("perimeter: "+perimeter);
+        System.out.println("areaOfSide: "+areaOfSide);
         sc.close();
     } 
 }

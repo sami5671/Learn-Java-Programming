@@ -10,6 +10,6 @@ public class problem_2 {
 
         int sumAndProduct = sum + product;
 
-        System.out.println(+sumAndProduct);
+        System.out.println("sumAndProduct: "+sumAndProduct);
     }
 }
