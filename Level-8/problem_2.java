@@ -10,14 +10,11 @@ public class problem_2 {
         int searchValue = sc.nextInt();
         for(int i = 0; i < size; i++){
             if (array[i] == searchValue) {
-                System.out.println("searchValue is present: "+searchValue);
-                break;
-            }else{
-                System.out.println(+searchValue +" searchValue is not present: ");
+                System.out.println(+searchValue + "searchValue is present: ");
                 break;
             }
         }
-    }
+        }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array: ");

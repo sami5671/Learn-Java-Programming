@@ -1,19 +1,17 @@
-
 public class problem_6 {
     public static void main(String[] args) {
-        int TwoDArray[][] = {
-            {1, 2, 3},{4, 5, 6},{7, 8, 9}
+        int twoDArr[][] = {
+            {10, 20, 30}, {40, 50, 60}, {70, 80, 90}
         };
 
-        int row = TwoDArray.length;
-        int column = TwoDArray[0].length;
+        int row = twoDArr.length;
+        int column = twoDArr[0].length;
 
-        for(int i = 0; i < row; i++) {
-
-            for(int j = 0; j < column; j++) {
-                System.out.println(+TwoDArray[i][j] + " ");
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
+                System.out.print(twoDArr[i][j] + " ");
             }
-            System.out.println();
+            System.out.println(); 
+        }
     }
-}
 }

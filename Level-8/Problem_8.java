@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Problem_8 {
@@ -8,20 +7,24 @@ public class Problem_8 {
         for(int i = 0; i < size; i++){
             arr[i] = sc.nextInt();
         }
-        int length = size /2;
-        for(int i = 0; i < length; i++){
-            if (arr[i] != arr[length - 1 - i]){
-                System.out.println("Its not a palindrome array");
+        boolean isPalindrome = true;
+        for(int i = 0; i < size / 2; i++){
+            if (arr[i] != arr[size - 1 - i]){
+                isPalindrome = false; 
                 break;
-            }else{
-                 System.out.println("its Palindrome");
-                 break;
             }
+        }
+        
+        if (isPalindrome) {
+            System.out.println("it is  a palindrome array");
+        } else {
+            System.out.println("it is not a palindrome array");
         }
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the size of the array: ");
         int size = sc.nextInt();
         checkArrayElements(size);
     }
