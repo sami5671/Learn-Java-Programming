@@ -10,9 +10,9 @@ public class problem_4 {
             array_1[i] = sc.nextInt();
         }
 
-        // COPY ARRAY AND REVERSE ORDER
+        
         for (int i = 0; i < size; i++) {
-            array_2[i] = array_1[size - 1 - i]; // Corrected to reverse the array
+            array_2[i] = array_1[size - 1 - i]; 
         }
 
         System.out.println("Reversed array: ");

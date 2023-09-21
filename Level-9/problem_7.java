@@ -14,8 +14,7 @@
 
         System.out.println("The abbreviation of your name is: " + firstName.charAt(0)+"." + middleName.charAt(0)
         + "."   + lastName);
-        
-
+    
         sc.close();
     }
 }

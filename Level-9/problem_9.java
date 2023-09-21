@@ -1,5 +1,5 @@
 public class problem_9 {
-     public static String removeConsonants(String input) {
+     public static String rmvConsonants(String input) {
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < input.length(); i++) {
@@ -13,7 +13,7 @@ public class problem_9 {
     }
     public static void main(String[] args) {
         String inputText = "Hello, have a good day";
-        String resultString = removeConsonants(inputText);
+        String resultString = rmvConsonants(inputText);
 
         System.out.println("Original String: " + inputText);
         System.out.println("String without consonants: " + resultString);
