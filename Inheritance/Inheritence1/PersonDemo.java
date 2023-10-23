@@ -8,14 +8,11 @@ public class PersonDemo {
         System.out.println(s);
         System.out.println(t);
 
+// Set last name
 t.setLastName("hello");
 
         System.out.println(p.getGreeting());
         System.out.println(s.getGreeting());
         System.out.println(t.getGreeting());
-    }
-
-    // set 
-    // t.setLastName("hello world");
-    
+    }   
 }
